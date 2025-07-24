@@ -1,0 +1,15 @@
+{
+  "name": "jest-js",
+  "version": "1.0.0",
+  "description": "For Unit Testing",
+  "license": "ISC",
+  "author": "Ahmed RFRF",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
