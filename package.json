@@ -7,26 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "test:coverage": "jest --coverage"
+    "test": "jest --watchAll"
   },
   "devDependencies": {
     "jest": "^30.0.5"
-  },
-  "jest": {
-    "//1": "Collect Coverage Option",
-    "collectCoverage": true,
-    "coverageReporters": [
-      "html"
-    ],
-    "//2": "Coverage Directory",
-    "coverageDirectory": "reports",
-    "collectCoverageFrom": [
-      "**/*.{js,jsx,ts}"
-    ],
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "/build/"
-    ]
   }
 }
